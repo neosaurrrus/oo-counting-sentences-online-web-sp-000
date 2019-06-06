@@ -23,7 +23,7 @@ class String
     #split by periods, exclamations, questions
     array = self.split(/[!?.]/)
     #loop through arr of splits
-    array.each { |element| 
+    array.each { |element|
       element.length > 1 ? count +=1 : count}
     # if arr is longer than 0 count up
     return count

@@ -21,6 +21,8 @@ class String
   def count_sentences
     count = 0
     #split by periods, exclamations, questions
+    array = self.split(/[!?.]/)
+    binding.pry
     #loop through arr of splits
     # if arr is longer than 0 count up
     return count

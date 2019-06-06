@@ -6,6 +6,7 @@ require 'pry'
 class String
 
   def sentence?
+    puts self.last
     self.last == "." ? true : false
   end
 

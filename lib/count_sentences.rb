@@ -7,7 +7,7 @@ class String
 
   def sentence?
     puts self.last
-    self.end_with?("!") ? true : false
+    self.end_with?("!")
   end
 
   def question?

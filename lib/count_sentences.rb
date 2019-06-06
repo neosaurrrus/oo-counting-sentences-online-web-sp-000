@@ -6,7 +6,7 @@ require 'pry'
 class String
 
   def sentence?
-    puts self.last
+    
     self.end_with?("!")
   end
 

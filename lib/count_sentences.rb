@@ -6,7 +6,7 @@ require 'pry'
 class String
 
   def sentence?
-    self.end == "." ? true : false
+    self.last == "." ? true : false
   end
 
   def question?

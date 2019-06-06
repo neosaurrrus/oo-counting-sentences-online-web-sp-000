@@ -22,8 +22,8 @@ class String
     count = 0
     #split by periods, exclamations, questions
     array = self.split(/[!?.]/)
-    binding.pry
     #loop through arr of splits
+    array.each { |element| count +=1}
     # if arr is longer than 0 count up
     return count
   end
